@@ -17,10 +17,10 @@ export const Navbar = ({ toggleTheme }) => {
                     {isOpen ? <FaTimes /> : <FaBars />}
                 </MenuIcon>
                 <NavLinks isOpen={isOpen}>
-                    <Link to="/" onClick={() => setIsOpen(false)}>About</Link>
-                    <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
-                    <Link to="/skills" onClick={() => setIsOpen(false)}>Skills</Link>
-                    <Link to="/experience" onClick={() => setIsOpen(false)}>Experience</Link>
+                    <Link to="/avinashpandey/" onClick={() => setIsOpen(false)}>About</Link>
+                    <Link to="/avinashpandey/projects" onClick={() => setIsOpen(false)}>Projects</Link>
+                    <Link to="/avinashpandey/skills" onClick={() => setIsOpen(false)}>Skills</Link>
+                    <Link to="/avinashpandey/experience" onClick={() => setIsOpen(false)}>Experience</Link>
                     <ToggleButton onClick={toggleTheme}>Flip Theme</ToggleButton>
                 </NavLinks>
             </NavigationBar>
