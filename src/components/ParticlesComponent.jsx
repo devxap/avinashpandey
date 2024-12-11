@@ -54,11 +54,11 @@ const ParticlesComponent = (props) => {
         },
         modes: {
           push: {
-            distance: 200,
+            distance: 100,
             duration: 15,
           },
           grab: {
-            distance: 150,
+            distance: 100,
           },
         },
       },
@@ -70,7 +70,7 @@ const ParticlesComponent = (props) => {
           color: theme.linksColor,
           distance: 150,
           enable: true,
-          opacity: 0.8,
+          opacity: 0.5,
           width: 1,
         },
         move: {
@@ -90,7 +90,7 @@ const ParticlesComponent = (props) => {
           value: 250,
         },
         opacity: {
-          value: 0.8,
+          value: 0.5,
         },
         shape: {
           type: "circle",
