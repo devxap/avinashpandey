@@ -29,11 +29,11 @@ const App = () => {
           <GlobalStyle />
           
           <Routes>
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/" element={<About />} />
+            <Route path="/avinashpandey/about" element={<About />} />
+            <Route path="/avinashpandey/projects" element={<Projects />} />
+            <Route path="/avinashpandey/skills" element={<Skills />} />
+            <Route path="/avinashpandey/experience" element={<Experience />} />
+            <Route path="/avinashpandey/" element={<About />} />
           </Routes>
 
 
