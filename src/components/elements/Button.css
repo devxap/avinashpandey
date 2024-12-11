@@ -1,0 +1,8 @@
+.example-button{
+    background:rgb(86, 1, 245);
+    color: white;
+    font-size: 3vh;
+    border:1px solid white;
+    padding: 1vh 2vh;
+    cursor: pointer;
+  }
